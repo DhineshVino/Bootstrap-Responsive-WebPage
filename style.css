@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: black;
+    padding: 1rem;
+    z-index: 11000;
+}
+.navbar navbar-brand{
+    font-size: large;
+    font-weight: 800;
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a{
+    color: white;
+    font-size: 1.3em;
+    padding: 0 1.5em;
+
+}
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover,
+#navbarSupportedContent>ul>li:nth-child(n)>a:active{
+    color: yellow;
+}
+#navbarSupportedContent>button{
+    color: white;
+    background: green;
+    font-weight: 700;
+    padding: 0 1.2em;
+    border-radius: 30px;
+
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    
+    
+}
+.section1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.banner{
+    position: relative;
+    align-content: center;
+    color: white;
+    
+   
+}
+.banner p{
+   font-size: larger;
+}
+.section1 .banner a{
+
+    color: white;
+    background: green;
+    font-weight: 500;
+    padding:10px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.section1 .banner a:hover{
+    background:black;
+}
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    font-size: x-large;
+
+}
+.about .text a{
+     
+    color: white;
+    background: green;
+    font-weight: 500;
+    padding:10px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.about .text a:hover{
+        background-color: black;
+
+}
+
+.about .text h2{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.Github{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(247, 247, 247);
+    font-size: x-large;
+
+}
+.Github .text a{
+     
+    color: white;
+    background: green;
+    font-weight: 500;
+    padding:10px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Github .text a:hover{
+        background-color: black;
+
+}
+
+.Github .text h2{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.list-unstyled ul{
+    text-decoration: none;
+
+
+}
